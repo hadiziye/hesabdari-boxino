@@ -14,7 +14,7 @@
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>11865</WindowHeight>
+  <WindowHeight>11985</WindowHeight>
   <WindowWidth>28800</WindowWidth>
   <WindowTopX>32767</WindowTopX>
   <WindowTopY>32767</WindowTopY>
@@ -94,7 +94,7 @@
      ss:Color="#ADADAD"/>
    </Borders>
    <Font ss:FontName="Tahoma" ss:Size="9"/>
-   <Interior ss:Color="#00B0F0" ss:Pattern="Solid"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
   </Style>
@@ -111,7 +111,7 @@
      ss:Color="#ADADAD"/>
    </Borders>
    <Font ss:FontName="Tahoma" ss:Size="9"/>
-   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+   <Interior ss:Color="#00B0F0" ss:Pattern="Solid"/>
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
   </Style>
@@ -128,13 +128,17 @@
      ss:Color="#ADADAD"/>
    </Borders>
    <Font ss:FontName="Tahoma" ss:Size="9"/>
-   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
   </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Center"/>
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="Sheet1" ss:RightToLeft="1">
-  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="5" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="18" ss:ExpandedRowCount="5" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="14.25">
    <Column ss:Width="28.5"/>
    <Column ss:Width="44.25"/>
@@ -142,9 +146,10 @@
    <Column ss:AutoFitWidth="0" ss:Width="81"/>
    <Column ss:AutoFitWidth="0" ss:Width="69.75"/>
    <Column ss:AutoFitWidth="0" ss:Width="78.75"/>
-   <Column ss:AutoFitWidth="0" ss:Width="328.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="207.75"/>
    <Column ss:AutoFitWidth="0" ss:Width="52.5" ss:Span="6"/>
-   <Column ss:Index="17" ss:AutoFitWidth="0" ss:Width="213.75"/>
+   <Column ss:Index="17" ss:AutoFitWidth="0" ss:Width="174.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="109.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s62">
     <Cell><Data ss:Type="String">ردیف</Data></Cell>
     <Cell><Data ss:Type="String">تاریخ</Data></Cell>
@@ -170,7 +175,7 @@
     <Cell><Data ss:Type="String">00:41:55</Data></Cell>
     <Cell><Data ss:Type="String">905280</Data></Cell>
     <Cell><Data ss:Type="String">997 عملیات متمركز</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">508,079</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">508,079</Data></Cell>
     <Cell><Data ss:Type="String">0</Data></Cell>
     <Cell><Data ss:Type="String">1,536,832,808</Data></Cell>
     <Cell><Data ss:Type="String">واریز سود | </Data></Cell>
@@ -189,7 +194,7 @@
     <Cell><Data ss:Type="String">00:32:22</Data></Cell>
     <Cell><Data ss:Type="String">905072</Data></Cell>
     <Cell><Data ss:Type="String">997 عملیات متمركز</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">610,523</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">610,523</Data></Cell>
     <Cell><Data ss:Type="String">0</Data></Cell>
     <Cell><Data ss:Type="String">1,537,443,331</Data></Cell>
     <Cell><Data ss:Type="String">واریز سود | </Data></Cell>
@@ -202,10 +207,12 @@
     <Cell><Data ss:Type="String">426082</Data></Cell>
     <Cell><Data ss:Type="String">5155 مهرگستر</Data></Cell>
     <Cell><Data ss:Type="String">0</Data></Cell>
-    <Cell><Data ss:Type="String">1,000,000,000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">1,000,000,000</Data></Cell>
     <Cell><Data ss:Type="String">537,443,331</Data></Cell>
     <Cell><Data ss:Type="String">10-مدیریت نقدینگی | 90120020000003271239547 | انتقال به حساب 600326 | شرح : |140501290162773327 Ach همراه بانك مقداد شریفی مین | پایا | </Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s65"><Data ss:Type="String">برداشت جهت سرمایه گذاری برای شرکت</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s67"><Data ss:Type="Number">133</Data></Cell>
+    <Cell ss:Index="17" ss:StyleID="s66"><Data ss:Type="String">برداشت جهت سرمایه گذاری برای شرکت</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ثبت به عنوان دارایی 1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
     <Cell><Data ss:Type="Number">4</Data></Cell>
@@ -214,11 +221,11 @@
     <Cell><Data ss:Type="String">426082</Data></Cell>
     <Cell><Data ss:Type="String">5155 مهرگستر</Data></Cell>
     <Cell><Data ss:Type="String">0</Data></Cell>
-    <Cell><Data ss:Type="String">75,000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">75,000</Data></Cell>
     <Cell><Data ss:Type="String">537,368,331</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">كارمزدپایا | </Data></Cell>
-    <Cell ss:Index="14" ss:StyleID="s66"><Data ss:Type="Number">28</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">كارمزدپایا | </Data></Cell>
+    <Cell ss:Index="14" ss:StyleID="s67"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">47</Data></Cell>
     <Cell><Data ss:Type="Number">75000</Data></Cell>
     <Cell><Data ss:Type="String">کارمزد سرمایه گذاری</Data></Cell>
    </Row>
@@ -230,9 +237,8 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>1</ActiveRow>
-     <ActiveCol>5</ActiveCol>
-     <RangeSelection>R2C6:R3C6</RangeSelection>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>16</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

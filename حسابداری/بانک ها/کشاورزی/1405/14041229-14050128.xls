@@ -111,7 +111,7 @@
      ss:Color="#ADADAD"/>
    </Borders>
    <Font ss:FontName="Tahoma" ss:Size="9"/>
-   <Interior ss:Color="#00B0F0" ss:Pattern="Solid"/>
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
   </Style>
@@ -128,7 +128,7 @@
      ss:Color="#ADADAD"/>
    </Borders>
    <Font ss:FontName="Tahoma" ss:Size="9"/>
-   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+   <Interior ss:Color="#00B0F0" ss:Pattern="Solid"/>
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
   </Style>
@@ -194,10 +194,11 @@
     <Cell><Data ss:Type="String">00:32:22</Data></Cell>
     <Cell><Data ss:Type="String">905072</Data></Cell>
     <Cell><Data ss:Type="String">997 عملیات متمركز</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">610,523</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">610523</Data></Cell>
     <Cell><Data ss:Type="String">0</Data></Cell>
     <Cell><Data ss:Type="String">1,537,443,331</Data></Cell>
     <Cell><Data ss:Type="String">واریز سود | </Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s66"><Data ss:Type="Number">83</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="String">واریز سود بانکی</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
@@ -207,11 +208,11 @@
     <Cell><Data ss:Type="String">426082</Data></Cell>
     <Cell><Data ss:Type="String">5155 مهرگستر</Data></Cell>
     <Cell><Data ss:Type="String">0</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">1,000,000,000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">1,000,000,000</Data></Cell>
     <Cell><Data ss:Type="String">537,443,331</Data></Cell>
     <Cell><Data ss:Type="String">10-مدیریت نقدینگی | 90120020000003271239547 | انتقال به حساب 600326 | شرح : |140501290162773327 Ach همراه بانك مقداد شریفی مین | پایا | </Data></Cell>
-    <Cell ss:Index="13" ss:StyleID="s67"><Data ss:Type="Number">133</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s66"><Data ss:Type="String">برداشت جهت سرمایه گذاری برای شرکت</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s66"><Data ss:Type="Number">133</Data></Cell>
+    <Cell ss:Index="17" ss:StyleID="s67"><Data ss:Type="String">برداشت جهت سرمایه گذاری برای شرکت</Data></Cell>
     <Cell ss:StyleID="s68"><Data ss:Type="String">ثبت به عنوان دارایی 1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
@@ -221,12 +222,12 @@
     <Cell><Data ss:Type="String">426082</Data></Cell>
     <Cell><Data ss:Type="String">5155 مهرگستر</Data></Cell>
     <Cell><Data ss:Type="String">0</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="String">75,000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">75,000</Data></Cell>
     <Cell><Data ss:Type="String">537,368,331</Data></Cell>
     <Cell><Data ss:Type="String">كارمزدپایا | </Data></Cell>
-    <Cell ss:Index="14" ss:StyleID="s67"><Data ss:Type="Number">28</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">47</Data></Cell>
-    <Cell><Data ss:Type="Number">75000</Data></Cell>
+    <Cell ss:Index="14" ss:StyleID="s66"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">75000</Data></Cell>
     <Cell><Data ss:Type="String">کارمزد سرمایه گذاری</Data></Cell>
    </Row>
   </Table>
@@ -237,8 +238,8 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>10</ActiveRow>
-     <ActiveCol>16</ActiveCol>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>11</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

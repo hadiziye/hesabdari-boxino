@@ -7,7 +7,7 @@
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <LastAuthor>nadimico.com</LastAuthor>
-  <LastSaved>2026-06-11T10:10:24Z</LastSaved>
+  <LastSaved>2026-07-08T13:23:07Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -30,7 +30,19 @@
    <NumberFormat/>
    <Protection/>
   </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Interior/>
+  </Style>
   <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+  </Style>
+  <Style ss:ID="s65">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
@@ -44,19 +56,6 @@
    </Borders>
    <Font ss:FontName="Tahoma" ss:Bold="1"/>
    <Interior/>
-   <NumberFormat/>
-   <Protection/>
-  </Style>
-  <Style ss:ID="s65">
-   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Font ss:FontName="Tahoma" ss:Bold="1"/>
-   <Interior ss:Color="#A1C24F" ss:Pattern="Solid"/>
    <NumberFormat/>
    <Protection/>
   </Style>
@@ -70,8 +69,21 @@
    </Borders>
    <Font ss:FontName="Tahoma" ss:Bold="1"/>
    <Interior ss:Color="#A1C24F" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
   </Style>
   <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Bold="1"/>
+   <Interior ss:Color="#A1C24F" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
    <Borders/>
    <Font ss:FontName="Tahoma" ss:Bold="1"/>
@@ -79,7 +91,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s68">
+  <Style ss:ID="s69">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
@@ -96,7 +108,7 @@
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
   </Style>
-  <Style ss:ID="s69">
+  <Style ss:ID="s70">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -109,7 +121,7 @@
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
   </Style>
-  <Style ss:ID="s70">
+  <Style ss:ID="s71">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders/>
    <Font ss:FontName="Tahoma" ss:Size="9"/>
@@ -117,7 +129,7 @@
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
   </Style>
-  <Style ss:ID="s71">
+  <Style ss:ID="s72">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -138,6 +150,19 @@
     <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
    </Borders>
+   <Font ss:FontName="Tahoma" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="#,##0"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
    <Font ss:FontName="Tahoma" ss:Size="9"/>
    <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
    <NumberFormat ss:Format="#,##0"/>
@@ -146,11 +171,12 @@
   <Style ss:ID="s75">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
    </Borders>
-   <Font ss:FontName="Tahoma" ss:Size="9"/>
+   <Font ss:FontName="Tahoma" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
    <Interior/>
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
@@ -163,11 +189,23 @@
     <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
    </Borders>
    <Font ss:FontName="Tahoma" ss:Size="9"/>
-   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+   <Interior/>
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
   </Style>
   <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Tahoma" ss:Size="9"/>
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="#,##0"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s78">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -186,37 +224,11 @@
     <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
     <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
    </Borders>
-   <Font ss:FontName="Tahoma" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
-   <Interior/>
-   <NumberFormat ss:Format="#,##0"/>
-   <Protection/>
-  </Style>
-  <Style ss:ID="s80">
-   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
-   <Font ss:FontName="Tahoma" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
-   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
-   <NumberFormat ss:Format="#,##0"/>
-   <Protection/>
-  </Style>
-  <Style ss:ID="s82">
-   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
-   </Borders>
    <Font ss:FontName="Tahoma" ss:Size="9"/>
    <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
    <NumberFormat ss:Format="#,##0"/>
   </Style>
-  <Style ss:ID="s88">
+  <Style ss:ID="s80">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -225,7 +237,7 @@
     <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
    </Borders>
   </Style>
-  <Style ss:ID="s89">
+  <Style ss:ID="s81">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -235,83 +247,63 @@
    </Borders>
    <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s90">
-   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
-   <Borders/>
-   <Interior/>
-  </Style>
-  <Style ss:ID="s91">
-   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
-   <Borders/>
-  </Style>
-  <Style ss:ID="s92">
-   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
-  </Style>
  </Styles>
  <Worksheet ss:Name="Sheet1" ss:RightToLeft="1">
   <Table ss:ExpandedColumnCount="28" ss:ExpandedRowCount="11" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s92" ss:DefaultColumnWidth="54"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54"
    ss:DefaultRowHeight="14.25">
-   <Column ss:StyleID="s92" ss:Width="28.5"/>
-   <Column ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="57.75"/>
-   <Column ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="63.75"/>
-   <Column ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="60"/>
-   <Column ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="90.75"/>
-   <Column ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="236.25"/>
-   <Column ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="77.25"/>
-   <Column ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="92.25"/>
-   <Column ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="65.25"/>
-   <Column ss:Index="17" ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="225"/>
-   <Column ss:StyleID="s90" ss:AutoFitWidth="0" ss:Span="6"/>
-   <Column ss:Index="25" ss:StyleID="s91" ss:AutoFitWidth="0" ss:Span="3"/>
-   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s64">
-    <Cell ss:StyleID="s65"><Data ss:Type="String">ردیف</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">تاریخ</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">زمان</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">پیگیری</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">شعبه</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">توضیحات</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">واریز</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">برداشت</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">مانده</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">هزینه</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">فاکتور</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">دریافت</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">پرداخت</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">ثبت ک</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">پرداخت ک</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">مبلغ ک</Data></Cell>
-    <Cell ss:StyleID="s66"><Data ss:Type="String">شرح</Data></Cell>
-    <Cell ss:StyleID="s67"/>
-    <Cell ss:StyleID="s67"/>
-    <Cell ss:StyleID="s67"/>
-    <Cell ss:StyleID="s67"/>
-    <Cell ss:StyleID="s67"/>
-    <Cell ss:StyleID="s67"/>
-    <Cell ss:StyleID="s67"/>
-    <Cell ss:StyleID="s67"/>
-    <Cell ss:StyleID="s67"/>
-    <Cell ss:StyleID="s67"/>
-    <Cell ss:StyleID="s67"/>
+   <Column ss:StyleID="s62" ss:Width="28.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="57.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="63.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="60"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="90.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="236.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="77.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="92.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="65.25"/>
+   <Column ss:Index="17" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="225"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Span="6"/>
+   <Column ss:Index="25" ss:StyleID="s64" ss:AutoFitWidth="0" ss:Span="3"/>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625" ss:StyleID="s65">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ردیف</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">تاریخ</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">زمان</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">پیگیری</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">شعبه</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">توضیحات</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">واریز</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">برداشت</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">مانده</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">هزینه</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">فاکتور</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">دریافت</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">پرداخت</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ثبت ک</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">پرداخت ک</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">مبلغ ک</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">شرح</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s68">
-    <Cell ss:StyleID="s69"><Data ss:Type="Number">24</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">05/02/28</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">00:34:45</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">904987</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">997 عملیات متمركز</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">واریز سود | </Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">228,070</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">0</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">537,296,401</Data></Cell>
-    <Cell ss:StyleID="s69"/>
-    <Cell ss:StyleID="s69"/>
-    <Cell ss:StyleID="s69"/>
-    <Cell ss:StyleID="s69"/>
-    <Cell ss:StyleID="s69"/>
-    <Cell ss:StyleID="s69"/>
-    <Cell ss:StyleID="s69"/>
-    <Cell ss:StyleID="s69"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s69">
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">05/02/28</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">00:34:45</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">904987</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">997 عملیات متمركز</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">واریز سود | </Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">228,070</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">537,296,401</Data></Cell>
     <Cell ss:StyleID="s70"/>
     <Cell ss:StyleID="s70"/>
     <Cell ss:StyleID="s70"/>
@@ -320,268 +312,276 @@
     <Cell ss:StyleID="s70"/>
     <Cell ss:StyleID="s70"/>
     <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s68">
-    <Cell ss:StyleID="s71"><Data ss:Type="Number">25</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">05/03/19</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">14:19:35</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">453465</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">333 همراه بانك</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">انتقال به حساب 1092452204 | شرح : 18-تگ لیبل دایره محصولات كهن لیبل | انتقالMOB | </Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">0</Data></Cell>
-    <Cell ss:StyleID="s80"><Data ss:Type="String">88,000,000</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">449,296,401</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="Number">85</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s69">
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">05/03/19</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">14:19:35</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">453465</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">333 همراه بانك</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">انتقال به حساب 1092452204 | شرح : 18-تگ لیبل دایره محصولات كهن لیبل | انتقالMOB | </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">88,000,000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">449,296,401</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">85</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">111</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">هزینه ساخت لیبل از چاپ کهن از حساب بانکی کشاورزی&#10;میزان ۵۲۰۰۰ لیبل باکسینو</Data></Cell>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
-    <Cell ss:StyleID="s73"><Data ss:Type="Number">111</Data></Cell>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
-    <Cell ss:StyleID="s79"><Data ss:Type="String">هزینه ساخت لیبل از چاپ کهن از حساب بانکی کشاورزی&#10;میزان ۵۲۰۰۰ لیبل باکسینو</Data></Cell>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s68">
-    <Cell ss:StyleID="s71"><Data ss:Type="Number">26</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">05/03/19</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">14:19:35</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">453465</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">333 همراه بانك</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">كارمزدانتق | </Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">0</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">450</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">449,295,951</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s69">
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">05/03/19</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">14:19:35</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">453465</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">333 همراه بانك</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">كارمزدانتق | </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">450</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">449,295,951</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">84</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">107</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">450</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">کارمزد</Data></Cell>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
-    <Cell ss:StyleID="s73"><Data ss:Type="Number">84</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="Number">107</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="Number">450</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">کارمزد</Data></Cell>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s68">
-    <Cell ss:StyleID="s71"><Data ss:Type="Number">27</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">05/03/19</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">15:32:12</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">808759</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">333 همراه بانك</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">انتقال به حساب 1056255094 | شرح : 19- | انتقالMOB | </Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">0</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">3,000,000</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">446,295,951</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s69">
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">05/03/19</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">15:32:12</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">808759</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">333 همراه بانك</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">انتقال به حساب 1056255094 | شرح : 19- | انتقالMOB | </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">3,000,000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">446,295,951</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">108</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">هزینه ی طراحی لیبل های UVDTF برای مشتری</Data></Cell>
     <Cell ss:StyleID="s71"/>
-    <Cell ss:StyleID="s73"/>
-    <Cell ss:StyleID="s71"/>
-    <Cell ss:StyleID="s73"><Data ss:Type="Number">108</Data></Cell>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">هزینه ی طراحی لیبل های UVDTF برای مشتری</Data></Cell>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s68">
-    <Cell ss:StyleID="s71"><Data ss:Type="Number">28</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">05/03/19</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">15:32:12</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">808759</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">333 همراه بانك</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">كارمزدانتق | </Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">0</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">450</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">446,295,501</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s69">
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">05/03/19</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">15:32:12</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">808759</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">333 همراه بانك</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">كارمزدانتق | </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">450</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">446,295,501</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">84</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">107</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">450</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">کارمزد</Data></Cell>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
-    <Cell ss:StyleID="s73"><Data ss:Type="Number">84</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="Number">107</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="Number">450</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">کارمزد</Data></Cell>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s68">
-    <Cell ss:StyleID="s71"><Data ss:Type="Number">29</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">05/03/19</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">21:05:08</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">741344</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">333 همراه بانك</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">انتقال به حساب 1056255094 | شرح : 18-لیبل uvdtf | انتقالMOB | </Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">0</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="Number">43500000</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">402,795,501</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s69">
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">05/03/19</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">21:05:08</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">741344</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">333 همراه بانك</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">انتقال به حساب 1056255094 | شرح : 18-لیبل uvdtf | انتقالMOB | </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">43500000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">402,795,501</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">109</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">چاپ uvdtf از بانک کشاورزی چاپ کهن برای مشتری</Data></Cell>
     <Cell ss:StyleID="s71"/>
-    <Cell ss:StyleID="s73"/>
-    <Cell ss:StyleID="s71"/>
-    <Cell ss:StyleID="s73"><Data ss:Type="Number">109</Data></Cell>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">چاپ uvdtf از بانک کشاورزی چاپ کهن برای مشتری</Data></Cell>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s68">
-    <Cell ss:StyleID="s71"><Data ss:Type="Number">30</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">05/03/19</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">21:05:08</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">741344</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">333 همراه بانك</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">كارمزدانتق | </Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">0</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">450</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">402,795,051</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s69">
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">05/03/19</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">21:05:08</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">741344</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">333 همراه بانك</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">كارمزدانتق | </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">450</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">402,795,051</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">84</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">107</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">450</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">کارمزد</Data></Cell>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
-    <Cell ss:StyleID="s73"><Data ss:Type="Number">84</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="Number">107</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="Number">450</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">کارمزد</Data></Cell>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s68">
-    <Cell ss:StyleID="s71"><Data ss:Type="Number">31</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">05/03/19</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">21:17:04</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">791224</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">5155 مهرگستر</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">18-بابت مقوا ایندربرد | 50570020911512774538001 | انتقال به حساب 600291 | شرح : |140503190162849989 Ach همراه بانك ناشناس ناشناس | پایا | </Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">0</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="Number">231870000</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">170,925,051</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s69">
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">05/03/19</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">21:17:04</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">791224</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">5155 مهرگستر</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">18-بابت مقوا ایندربرد | 50570020911512774538001 | انتقال به حساب 600291 | شرح : |140503190162849989 Ach همراه بانك ناشناس ناشناس | پایا | </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">231870000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">170,925,051</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">خرید مقوای ایندربورد از ویستا پارس</Data></Cell>
     <Cell ss:StyleID="s71"/>
-    <Cell ss:StyleID="s73"/>
-    <Cell ss:StyleID="s71"/>
-    <Cell ss:StyleID="s73"><Data ss:Type="Number">110</Data></Cell>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
     <Cell ss:StyleID="s71"/>
-    <Cell ss:StyleID="s71"><Data ss:Type="String">خرید مقوای ایندربورد از ویستا پارس</Data></Cell>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s68">
-    <Cell ss:StyleID="s75"><Data ss:Type="Number">32</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">05/03/19</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">21:17:04</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">791224</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">5155 مهرگستر</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">كارمزدپایا | </Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">0</Data></Cell>
-    <Cell ss:StyleID="s76"><Data ss:Type="Number">23187</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">170,901,864</Data></Cell>
-    <Cell ss:StyleID="s75"/>
-    <Cell ss:StyleID="s75"/>
-    <Cell ss:StyleID="s75"/>
-    <Cell ss:StyleID="s75"/>
-    <Cell ss:StyleID="s76"><Data ss:Type="Number">84</Data></Cell>
-    <Cell ss:StyleID="s76"><Data ss:Type="Number">107</Data></Cell>
-    <Cell ss:StyleID="s76"><Data ss:Type="Number">23187</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">کارمزد</Data></Cell>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75" ss:StyleID="s69">
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">05/03/19</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">21:17:04</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">791224</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">5155 مهرگستر</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">كارمزدپایا | </Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">23187</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">170,901,864</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">84</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">107</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">23187</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">کارمزد</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30.75">
-    <Cell ss:StyleID="s77"><Data ss:Type="Number">33</Data></Cell>
-    <Cell ss:StyleID="s77"><Data ss:Type="String">05/03/28</Data></Cell>
-    <Cell ss:StyleID="s77"><Data ss:Type="String">00:39:35</Data></Cell>
-    <Cell ss:StyleID="s77"><Data ss:Type="String">904721</Data></Cell>
-    <Cell ss:StyleID="s77"><Data ss:Type="String">997 عملیات متمركز</Data></Cell>
-    <Cell ss:StyleID="s77"><Data ss:Type="String">واریز سود | </Data></Cell>
-    <Cell ss:StyleID="s82"><Data ss:Type="Number">72575</Data></Cell>
-    <Cell ss:StyleID="s77"><Data ss:Type="String">0</Data></Cell>
-    <Cell ss:StyleID="s77"><Data ss:Type="String">170,974,439</Data></Cell>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s89"><Data ss:Type="Number">82</Data></Cell>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">سود بانکی</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">05/03/28</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">00:39:35</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">904721</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">997 عملیات متمركز</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">واریز سود | </Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">72575</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">170,974,439</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">سود بانکی</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -591,8 +591,8 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>11</ActiveRow>
-     <ActiveCol>16</ActiveCol>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>10</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

@@ -81,23 +81,6 @@
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
   </Style>
-  <Style ss:ID="s65">
-   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
-     ss:Color="#ADADAD"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
-     ss:Color="#ADADAD"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
-     ss:Color="#ADADAD"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
-     ss:Color="#ADADAD"/>
-   </Borders>
-   <Font ss:FontName="Tahoma" ss:Size="9"/>
-   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
-   <NumberFormat ss:Format="#,##0"/>
-   <Protection/>
-  </Style>
   <Style ss:ID="s66">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
@@ -170,15 +153,15 @@
     <Cell><Data ss:Type="String">شرح</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s64"><Data ss:Type="String">04/12/28</Data></Cell>
-    <Cell><Data ss:Type="String">00:41:55</Data></Cell>
-    <Cell><Data ss:Type="String">905280</Data></Cell>
-    <Cell><Data ss:Type="String">997 عملیات متمركز</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="String">508,079</Data></Cell>
-    <Cell><Data ss:Type="String">0</Data></Cell>
-    <Cell><Data ss:Type="String">1,536,832,808</Data></Cell>
-    <Cell><Data ss:Type="String">واریز سود | </Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">00:41:55</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">905280</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">997 عملیات متمركز</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">508,079</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1,536,832,808</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">واریز سود | </Data></Cell>
     <Cell ss:StyleID="s64"/>
     <Cell ss:StyleID="s64"/>
     <Cell ss:StyleID="s64"/>
@@ -228,7 +211,7 @@
     <Cell ss:Index="14" ss:StyleID="s66"><Data ss:Type="Number">28</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">47</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">75000</Data></Cell>
-    <Cell><Data ss:Type="String">کارمزد سرمایه گذاری</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">کارمزد سرمایه گذاری</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -238,8 +221,9 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>2</ActiveRow>
-     <ActiveCol>11</ActiveCol>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>10</ActiveCol>
+     <RangeSelection>R12C11:R13C11</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

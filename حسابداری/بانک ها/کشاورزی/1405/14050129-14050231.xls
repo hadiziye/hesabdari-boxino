@@ -115,7 +115,7 @@
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
   </Style>
-  <Style ss:ID="s70">
+  <Style ss:ID="s69">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -128,7 +128,7 @@
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
   </Style>
-  <Style ss:ID="s72">
+  <Style ss:ID="s70">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders/>
    <Font ss:FontName="Tahoma" ss:Size="9"/>
@@ -136,7 +136,7 @@
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
   </Style>
-  <Style ss:ID="s73">
+  <Style ss:ID="s71">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
@@ -151,7 +151,7 @@
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
   </Style>
-  <Style ss:ID="s74">
+  <Style ss:ID="s72">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -163,7 +163,7 @@
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
   </Style>
-  <Style ss:ID="s75">
+  <Style ss:ID="s73">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -175,7 +175,7 @@
    <NumberFormat ss:Format="#,##0"/>
    <Protection/>
   </Style>
-  <Style ss:ID="s76">
+  <Style ss:ID="s74">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -186,7 +186,7 @@
    <Font ss:FontName="Tahoma" ss:Size="9"/>
    <NumberFormat ss:Format="#,##0"/>
   </Style>
-  <Style ss:ID="s77">
+  <Style ss:ID="s75">
    <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -274,16 +274,24 @@
     <Cell ss:StyleID="s67"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s68">
-    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="String">05/01/29</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="String">11:40:10</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="String">426082</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="String">5155 مهرگستر</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="String">0</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="String">75,000</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="String">537,368,331</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="String">كارمزدپایا | </Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">05/01/29</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">11:40:10</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">426082</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">5155 مهرگستر</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">75,000</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">537,368,331</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">كارمزدپایا | </Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">کارمزد سرمایه گذاری روی نفت</Data></Cell>
     <Cell ss:StyleID="s70"/>
     <Cell ss:StyleID="s70"/>
     <Cell ss:StyleID="s70"/>
@@ -291,133 +299,125 @@
     <Cell ss:StyleID="s70"/>
     <Cell ss:StyleID="s70"/>
     <Cell ss:StyleID="s70"/>
-    <Cell ss:StyleID="s70"><Data ss:Type="String">کارمزد سرمایه گذاری روی نفت</Data></Cell>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s71"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s68">
-    <Cell ss:StyleID="s74"><Data ss:Type="Number">2</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">05/02/11</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">13:09:59</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">234755</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">991 عملیات متمركز</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">0</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">300,000</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">537,068,331</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String"></Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="String">شرح : برداشت بابت كارمزد سرویس پیامك خبری | برداشت | </Data></Cell>
-    <Cell ss:StyleID="s74"/>
-    <Cell ss:StyleID="s74"/>
-    <Cell ss:StyleID="s74"/>
-    <Cell ss:StyleID="s74"/>
-    <Cell ss:StyleID="s75"><Data ss:Type="Number">24</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="Number">43</Data></Cell>
-    <Cell ss:StyleID="s75"><Data ss:Type="Number">300000</Data></Cell>
-    <Cell ss:StyleID="s74"><Data ss:Type="String">کارمزد</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">05/02/11</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">13:09:59</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">234755</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">991 عملیات متمركز</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">300,000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">537,068,331</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">شرح : برداشت بابت كارمزد سرویس پیامك خبری | برداشت | </Data></Cell>
     <Cell ss:StyleID="s72"/>
     <Cell ss:StyleID="s72"/>
     <Cell ss:StyleID="s72"/>
     <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">300000</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">کارمزد</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s71"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
-    <Cell ss:StyleID="s76"><Data ss:Type="Number">24</Data></Cell>
-    <Cell ss:StyleID="s76"><Data ss:Type="String">05/02/28</Data></Cell>
-    <Cell ss:StyleID="s76"><Data ss:Type="String">00:34:45</Data></Cell>
-    <Cell ss:StyleID="s76"><Data ss:Type="String">904987</Data></Cell>
-    <Cell ss:StyleID="s76"><Data ss:Type="String">997 عملیات متمركز</Data></Cell>
-    <Cell ss:StyleID="s76"><Data ss:Type="String">228,070</Data></Cell>
-    <Cell ss:StyleID="s76"><Data ss:Type="String">0</Data></Cell>
-    <Cell ss:StyleID="s76"><Data ss:Type="String">537,296,401</Data></Cell>
-    <Cell ss:StyleID="s76"/>
-    <Cell ss:StyleID="s77"><Data ss:Type="String">واریز سود | </Data></Cell>
-    <Cell ss:StyleID="s76"/>
-    <Cell ss:StyleID="s76"/>
-    <Cell ss:StyleID="s77"><Data ss:Type="Number">67</Data></Cell>
-    <Cell ss:StyleID="s76"/>
-    <Cell ss:StyleID="s76"/>
-    <Cell ss:StyleID="s76"/>
-    <Cell ss:StyleID="s76"/>
-    <Cell ss:StyleID="s76"><Data ss:Type="String">سود بانکی</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">05/02/28</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">00:34:45</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">904987</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">997 عملیات متمركز</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">228,070</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">537,296,401</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">واریز سود | </Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">104</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">167</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">سود بانکی</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -427,8 +427,8 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>10</ActiveRow>
-     <ActiveCol>10</ActiveCol>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>16</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

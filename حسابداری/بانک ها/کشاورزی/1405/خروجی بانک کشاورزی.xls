@@ -1,0 +1,524 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+>
+    <Styles>
+        <Style ss:ID="1">
+           <Font ss:FontName="Tahoma" ss:Size="10" ss:Bold="1"/>
+           <Alignment ss:Vertical="Center" ss:Horizontal="Center"/>
+           <Interior ss:Color="#a1c24f" ss:Pattern="Solid"/>
+           <Borders>
+               <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#737373" />
+               <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#737373" />
+               <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#737373" />
+               <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#737373" />
+           </Borders>
+        </Style>
+        <Style ss:ID="2">
+           <NumberFormat ss:Format="#,##0"/>
+           <Font ss:FontName="Tahoma" ss:Size="9" />
+           <Alignment ss:Vertical="Center" ss:Horizontal="Center" ss:WrapText="1"/>
+           <Borders>
+               <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#adadad" />
+               <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#adadad" />
+               <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#adadad" />
+               <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#adadad" />
+           </Borders>
+        </Style>
+    </Styles>
+    <Worksheet ss:Name="Sheet1">
+        <Table>
+            <Column />
+            <Column />
+            <Column />
+            <Column />
+            <Column />
+            <Column />
+            <Column />
+            <Column />
+            <Column />
+            <Column />
+            <Row ss:StyleID="1" ss:Height="20">
+                <Cell>
+                   <Data ss:Type="String">ردیف</Data>
+                </Cell>
+                <Cell>
+                   <Data ss:Type="String">تاریخ</Data>
+                </Cell>
+                <Cell>
+                   <Data ss:Type="String">زمان</Data>
+                </Cell>
+                <Cell>
+                   <Data ss:Type="String">پیگیری</Data>
+                </Cell>
+                <Cell>
+                   <Data ss:Type="String">شعبه</Data>
+                </Cell>
+                <Cell>
+                   <Data ss:Type="String">واریز</Data>
+                </Cell>
+                <Cell>
+                   <Data ss:Type="String">برداشت</Data>
+                </Cell>
+                <Cell>
+                   <Data ss:Type="String">مانده</Data>
+                </Cell>
+                <Cell>
+                   <Data ss:Type="String">شناسه</Data>
+                </Cell>
+                <Cell>
+                   <Data ss:Type="String">توضیحات</Data>
+                </Cell>
+            </Row>
+            <Row ss:StyleID="2" ss:Height="30">
+                <Cell ss:StyleID="2">
+                   <Data ss:Type="Number">1</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05/04/27</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">06:34:45</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">527388</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">999 عملیات متمركز</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">30,000,000</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">0</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">200,974,439</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String"></Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">مركزشاپرك | 50426052130000000203438036107 | شرح : 050426052130000000203438036107ACH1مركزشاپرك | واریزپایا | </Data>
+            </Cell>
+            </Row>
+            <Row ss:StyleID="2" ss:Height="30">
+                <Cell ss:StyleID="2">
+                   <Data ss:Type="Number">2</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05/04/27</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">06:34:45</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">527388</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">999 عملیات متمركز</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">0</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">6,000</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">200,968,439</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String"></Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">كارمزدPOS | </Data>
+            </Cell>
+            </Row>
+            <Row ss:StyleID="2" ss:Height="30">
+                <Cell ss:StyleID="2">
+                   <Data ss:Type="Number">3</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05/04/28</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">23:57:00</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">904485</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">997 عملیات متمركز</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">72,606</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">0</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">201,041,045</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String"></Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">واریز سود | </Data>
+            </Cell>
+            </Row>
+            <Row ss:StyleID="2" ss:Height="30">
+                <Cell ss:StyleID="2">
+                   <Data ss:Type="Number">4</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05/05/27</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">06:35:30</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">261920</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">999 عملیات متمركز</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">3,848,000</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">0</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">204,889,045</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String"></Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">مركزشاپرك | 50526041100000001670230655353 | شرح : 050526041100000001670230655353ACH1مركزشاپرك | واریزپایا | </Data>
+            </Cell>
+            </Row>
+            <Row ss:StyleID="2" ss:Height="30">
+                <Cell ss:StyleID="2">
+                   <Data ss:Type="Number">5</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05/05/27</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">06:35:30</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">261920</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">999 عملیات متمركز</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">0</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">1,200</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">204,887,845</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String"></Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">كارمزدPOS | </Data>
+            </Cell>
+            </Row>
+            <Row ss:StyleID="2" ss:Height="30">
+                <Cell ss:StyleID="2">
+                   <Data ss:Type="Number">6</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05/05/28</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">23:57:00</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">904408</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">997 عملیات متمركز</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">85,374</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">0</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">204,973,219</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String"></Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">واریز سود | </Data>
+            </Cell>
+            </Row>
+            <Row ss:StyleID="2" ss:Height="30">
+                <Cell ss:StyleID="2">
+                   <Data ss:Type="Number">7</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05/06/06</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">11:23:19</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">122338</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">991 عملیات متمركز</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">0</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">260,000</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">204,713,219</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String"></Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">شرح : برداشت بابت كارمزد سرویس پیامك خبری | برداشت | </Data>
+            </Cell>
+            </Row>
+            <Row ss:StyleID="2" ss:Height="30">
+                <Cell ss:StyleID="2">
+                   <Data ss:Type="Number">8</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05/06/27</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">14:10:03</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">543076</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">999 عملیات متمركز</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">150,000,000</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">0</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">354,713,219</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String"></Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">مركزشاپرك | 50626052130000000203438053619 | شرح : 050626052130000000203438053619ACH1مركزشاپرك | واریزپایا | </Data>
+            </Cell>
+            </Row>
+            <Row ss:StyleID="2" ss:Height="30">
+                <Cell ss:StyleID="2">
+                   <Data ss:Type="Number">9</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05/06/27</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">14:10:03</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">543076</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">999 عملیات متمركز</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">0</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">30,000</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">354,683,219</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String"></Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">كارمزدPOS | </Data>
+            </Cell>
+            </Row>
+            <Row ss:StyleID="2" ss:Height="30">
+                <Cell ss:StyleID="2">
+                   <Data ss:Type="Number">10</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05/06/28</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05:41:18</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">388988</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">999 عملیات متمركز</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">1,200,000,000</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">0</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">1,554,683,219</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String"></Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">مركزشاپرك | 50627052130000000203438038150 | شرح : 050627052130000000203438038150ACH1مركزشاپرك | واریزپایا | </Data>
+            </Cell>
+            </Row>
+            <Row ss:StyleID="2" ss:Height="30">
+                <Cell ss:StyleID="2">
+                   <Data ss:Type="Number">11</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05/06/28</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05:41:18</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">388988</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">999 عملیات متمركز</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">0</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">200,000</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">1,554,483,219</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String"></Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">كارمزدPOS | </Data>
+            </Cell>
+            </Row>
+            <Row ss:StyleID="2" ss:Height="30">
+                <Cell ss:StyleID="2">
+                   <Data ss:Type="Number">12</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05/06/28</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">23:57:00</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">904321</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">997 عملیات متمركز</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">86,933</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">0</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">1,554,570,152</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String"></Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">واریز سود | </Data>
+            </Cell>
+            </Row>
+            <Row ss:StyleID="2" ss:Height="30">
+                <Cell ss:StyleID="2">
+                   <Data ss:Type="Number">13</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05/06/29</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05:35:00</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">851048</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">999 عملیات متمركز</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">272,500,000</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">0</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">1,827,070,152</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String"></Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">مركزشاپرك | 50628052130000000203438054915 | شرح : 050628052130000000203438054915ACH1مركزشاپرك | واریزپایا | </Data>
+            </Cell>
+            </Row>
+            <Row ss:StyleID="2" ss:Height="30">
+                <Cell ss:StyleID="2">
+                   <Data ss:Type="Number">14</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05/06/29</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">05:35:00</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">851048</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">999 عملیات متمركز</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">0</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">54,500</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">1,827,015,652</Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String"></Data>
+            </Cell>
+                <Cell>
+                   <Data ss:Type="String">كارمزدPOS | </Data>
+            </Cell>
+            </Row>
+        </Table>
+    </Worksheet>
+</Workbook>
